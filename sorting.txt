@@ -1,0 +1,3 @@
+	Sorted letter by letter				Sorted word by word
+
+Seabed Sea level Seasonal change Sea walls	Sea level Sea walls Seabed Seasonal change

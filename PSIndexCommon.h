@@ -1,0 +1,20 @@
+
+#define FV_NUMSTYLE_ROMAN_UC	0x01
+#define FV_NUMSTYLE_ROMAN_LC	0x02
+#define FV_NUMSTYLE_ALPHA_UC	0x03
+#define FV_NUMSTYLE_ALPHA_LC	0x04
+#define FV_PAGE_NUM_ROMAN_UC	0x01
+#define FV_PAGE_NUM_ROMAN_LC	0x02 
+#define FV_PAGE_NUM_ALPHA_UC	0x03 
+#define FV_PAGE_NUM_ALPHA_LC	0x04 
+
+#define DEMO	1
+#define RELEASE	2
+
+#define MAXITEMS	5000
+#define MAXLEN		400
+#define	REFLEN		20
+
+#define MAXSTRING 256
+
+#define VERSION	DEMO

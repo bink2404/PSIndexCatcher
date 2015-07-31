@@ -1,0 +1,408 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "PSIndexCatcher.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "windows.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PSINDEXCATCHER_DIALOG DIALOG DISCARDABLE  0, 0, 302, 182
+STYLE DS_ABSALIGN | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "PSIndexCatcher"
+MENU IDR_MENU2
+FONT 8, "MS Sans Serif"
+BEGIN
+    LISTBOX         IDC_PSINDEXLIST,1,0,301,182,LBS_OWNERDRAWFIXED | 
+                    LBS_HASSTRINGS | LBS_NOINTEGRALHEIGHT | 
+                    LBS_WANTKEYBOARDINPUT | WS_VSCROLL | WS_HSCROLL | 
+                    WS_TABSTOP
+END
+
+IDD_FIND DIALOG DISCARDABLE  0, 0, 186, 100
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Find"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_FINDTEXT,7,22,172,14,ES_AUTOHSCROLL
+    CONTROL         "&Case sensitive",IDC_CASE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,44,61,10
+    DEFPUSHBUTTON   "OK",IDOK,7,79,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,129,79,50,14
+    LTEXT           "Search text :",IDC_STATIC,7,7,41,8
+    GROUPBOX        "Direction",IDC_STATIC,87,44,92,25
+    CONTROL         "&Down",IDC_DOWN,"Button",BS_AUTORADIOBUTTON,98,55,35,10
+    CONTROL         "&Up",IDC_UP,"Button",BS_AUTORADIOBUTTON,148,55,25,10
+END
+
+IDD_REPLACE DIALOG DISCARDABLE  0, 0, 186, 103
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Replace"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_FINDTEXT,7,16,172,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_REPLACETEXT,7,45,172,14,ES_AUTOHSCROLL
+    CONTROL         "&Case sensitive",IDC_CASE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,66,61,10
+    DEFPUSHBUTTON   "OK",IDOK,7,82,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,129,82,50,14
+    LTEXT           "Search text :",IDC_STATIC,7,7,41,8
+    LTEXT           "Replace with :",IDC_STATIC,7,36,46,8
+END
+
+IDD_IGNORECHARS DIALOG DISCARDABLE  0, 0, 186, 89
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Characters to ignore"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_IGNORECHARS,7,21,172,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,7,68,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,129,68,50,14
+    LTEXT           "Characters ...",IDC_STATIC,7,7,43,8
+    LTEXT           "These characters will be ignored when sorting the \nindex",
+                    IDC_STATIC,7,41,183,18
+END
+
+IDD_RANGESEPARATORS DIALOG DISCARDABLE  0, 0, 186, 73
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Page Range Separators"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_SEPARATORCHARS,7,7,172,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,7,52,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,129,52,50,14
+    LTEXT           "These characters will used to separate page ranges\ne.g. 10-12",
+                    -1,7,27,183,18
+END
+
+IDD_EDITOR DIALOGEX 0, 0, 247, 124
+STYLE DS_MODALFRAME | DS_SETFOREGROUND | DS_CENTER | WS_MINIMIZEBOX | 
+    WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CLIENTEDGE
+CAPTION "emDEX Marker"
+MENU IDR_MENU1
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_FULLTEXT,13,39,219,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Bold",IDC_BUTTON1,13,61,41,14
+    PUSHBUTTON      "Emphasis",IDC_BUTTON2,57,61,41,14
+    PUSHBUTTON      "Default",IDC_BUTTON3,101,61,41,14
+    PUSHBUTTON      "No Page",IDC_BUTTON4,145,61,41,14
+    PUSHBUTTON      "Single Page",IDC_BUTTON5,189,61,41,14
+    PUSHBUTTON      "",IDC_BUTTON6,13,79,41,14
+    PUSHBUTTON      "",IDC_BUTTON7,57,79,41,14
+    PUSHBUTTON      "",IDC_BUTTON8,101,79,41,14
+    PUSHBUTTON      "",IDC_BUTTON9,145,79,41,14
+    PUSHBUTTON      "",IDC_BUTTON10,189,79,41,14
+    DEFPUSHBUTTON   "OK",IDOK,13,103,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,181,103,50,14
+    COMBOBOX        IDC_COMBO1,63,10,168,30,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Marker Type:",IDC_STATIC,13,14,43,8
+    LTEXT           "MarkerText:",IDC_STATIC,13,28,39,8
+END
+
+IDD_BUTTONS DIALOG DISCARDABLE  0, 0, 307, 305
+STYLE DS_SYSMODAL | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "emDEX Marker Buttons"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_DISPLAY1,71,17,65,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ACTION1,71,36,65,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_DISPLAY2,223,17,65,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ACTION2,223,36,65,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_DISPLAY3,71,71,65,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ACTION3,71,90,65,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_DISPLAY4,223,71,65,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ACTION4,223,90,65,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_DISPLAY5,71,127,65,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ACTION5,71,146,65,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_DISPLAY6,223,127,65,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ACTION6,223,146,65,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_DISPLAY7,71,181,65,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ACTION7,71,200,65,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_DISPLAY8,223,181,65,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ACTION8,223,200,65,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_DISPLAY9,71,236,65,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ACTION9,71,255,65,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_DISPLAY10,223,236,65,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ACTION10,223,255,65,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,7,284,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,250,284,50,14
+    GROUPBOX        "Button 1",IDC_STATIC,7,7,141,50
+    LTEXT           "Display Text",IDC_STATIC,19,17,40,14,SS_CENTERIMAGE
+    LTEXT           "Action",IDC_STATIC,19,36,21,14,SS_CENTERIMAGE
+    GROUPBOX        "Button 2",IDC_STATIC,159,7,141,50
+    LTEXT           "Display Text",IDC_STATIC,171,17,40,14,SS_CENTERIMAGE
+    LTEXT           "Action",IDC_STATIC,171,36,21,14,SS_CENTERIMAGE
+    GROUPBOX        "Button 3",IDC_STATIC,7,61,141,50
+    LTEXT           "Display Text",IDC_STATIC,19,71,40,14,SS_CENTERIMAGE
+    LTEXT           "Action",IDC_STATIC,19,90,21,14,SS_CENTERIMAGE
+    GROUPBOX        "Button 4",IDC_STATIC,159,61,141,50
+    LTEXT           "Display Text",IDC_STATIC,171,71,40,14,SS_CENTERIMAGE
+    LTEXT           "Action",IDC_STATIC,171,90,21,14,SS_CENTERIMAGE
+    GROUPBOX        "Button 5",IDC_STATIC,7,116,141,50
+    LTEXT           "Display Text",IDC_STATIC,19,127,40,14,SS_CENTERIMAGE
+    LTEXT           "Action",IDC_STATIC,19,146,21,14,SS_CENTERIMAGE
+    GROUPBOX        "Button 6",IDC_STATIC,159,116,141,50
+    LTEXT           "Display Text",IDC_STATIC,171,127,40,14,SS_CENTERIMAGE
+    LTEXT           "Action",IDC_STATIC,171,146,21,14,SS_CENTERIMAGE
+    GROUPBOX        "Button 7",IDC_STATIC,7,170,141,50
+    LTEXT           "Display Text",IDC_STATIC,19,181,40,14,SS_CENTERIMAGE
+    LTEXT           "Action",IDC_STATIC,19,200,21,14,SS_CENTERIMAGE
+    GROUPBOX        "Button 8",IDC_STATIC,159,170,141,50
+    LTEXT           "Display Text",IDC_STATIC,171,181,40,14,SS_CENTERIMAGE
+    LTEXT           "Action",IDC_STATIC,171,200,21,14,SS_CENTERIMAGE
+    GROUPBOX        "Button 9",IDC_STATIC,7,226,141,50
+    LTEXT           "Display Text",IDC_STATIC,19,236,40,14,SS_CENTERIMAGE
+    LTEXT           "Action",IDC_STATIC,19,255,21,14,SS_CENTERIMAGE
+    GROUPBOX        "Button 10",IDC_STATIC,159,226,141,50
+    LTEXT           "Display Text",IDC_STATIC,171,236,40,14,SS_CENTERIMAGE
+    LTEXT           "Action",IDC_STATIC,171,255,21,14,SS_CENTERIMAGE
+END
+
+IDD_ABOUT DIALOG DISCARDABLE  0, 0, 166, 135
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About emDEX"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,57,114,50,14
+    ICON            "IDI_PSINDEXCATCHER",IDC_STATIC,72,7,20,20
+    LTEXT           "emDEX server v3.00",IDC_ABOUT_RELEASE,50,38,66,8
+    LTEXT           "Copyright (c) 2008",IDC_STATIC,53,57,58,8
+    LTEXT           "email : info@emdex.ca",IDC_STATIC,41,76,84,8
+    LTEXT           "web : www.emdex.ca",IDC_STATIC,48,95,69,8
+    LTEXT           "emDEX server v3.00 Demo",IDC_ABOUT_DEMO,39,39,87,8
+END
+
+IDD_STATS DIALOG DISCARDABLE  0, 0, 348, 189
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Statistics"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,148,168,50,14
+    CTEXT           "stat1",IDC_STAT1,25,35,296,8
+    CTEXT           "stat2",IDC_STAT2,25,53,296,8
+    CTEXT           "stat3",IDC_STAT3,25,71,296,8
+    EDITTEXT        IDC_TITLE,25,13,296,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER
+    CTEXT           "stat4",IDC_STAT4,25,89,296,8
+    CTEXT           "stat5",IDC_STAT5,25,107,296,8
+    CTEXT           "stat6",IDC_STAT6,25,125,296,8
+    CTEXT           "stat7",IDC_STAT7,25,143,296,8
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "PSIndexCatcher.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""windows.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_PSINDEXCATCHER      ICON    DISCARDABLE     "psindexc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU DISCARDABLE 
+BEGIN
+    POPUP "Tray"
+    BEGIN
+        MENUITEM "&Font ...",                   ID_CHANGEFONT
+        MENUITEM "&Background colour ...",      ID_CHANGBACKGROUNDCOLOR
+        MENUITEM SEPARATOR
+        POPUP "&Orphan ranges"
+        BEGIN
+            MENUITEM "&Audio alert",                ID_ORPHANSAUDIO, CHECKED
+            MENUITEM "&Visual alert",               ID_ORPHANSVISUAL
+            , CHECKED
+        END
+        POPUP "&Sort order"
+        BEGIN
+            MENUITEM "&Word by word",               ID_SORT_WORDBYWORD
+            , CHECKED
+            MENUITEM "&Letter by letter",           ID_SORT_LETTERBYLETTER
+        END
+        MENUITEM "&Characters to ignore ...",   ID_SETIGNORECHARS
+        MENUITEM "Ra&nge separators ...",       ID_SETRANGESEPARATORS
+        MENUITEM "&Real-time updates",          ID_REALTIMEUPDATE, CHECKED
+        MENUITEM "Al&ways on top",              ID_ALWAYSONTOP, CHECKED
+        MENUITEM "&Use emDEX marker editor",    ID_USEEDITOR, CHECKED
+        MENUITEM SEPARATOR
+        MENUITEM "&About ...",                  ID_ABOUT
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_EXIT
+    END
+END
+
+IDR_MENU2 MENU DISCARDABLE 
+BEGIN
+    POPUP "&Marker"
+    BEGIN
+        MENUITEM "&Edit",                       ID_MARKEREDIT
+        MENUITEM "&Delete",                     ID_MARKERDELETE
+        MENUITEM SEPARATOR
+        MENUITEM "&Find",                       ID_MARKERFIND
+        MENUITEM "&Replace",                    ID_MARKERREPLACE
+        MENUITEM SEPARATOR
+        MENUITEM "Find &orphan ranges",         ID_FINDORPHANS
+        MENUITEM "&Check cross-references",     ID_CHECKCROSSREFERENCES
+        MENUITEM SEPARATOR
+        MENUITEM "Display s&tats",              ID_DISPLAYSTATS
+        MENUITEM "&Update window\tF5",          ID_UPDATEWINDOW
+		MENUITEM "&Print",				        ID_PRINTMARKERS
+        MENUITEM SEPARATOR
+        MENUITEM "&Save window position",       ID_SAVEWINDOWSIZE
+        MENUITEM SEPARATOR
+        MENUITEM "C&lose window",               ID_MARKEREXIT
+    END
+END
+
+IDR_MENU3 MENU DISCARDABLE 
+BEGIN
+    POPUP "Popup"
+    BEGIN
+        MENUITEM "test",                        ID_TEST
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_FIND, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 93
+    END
+
+    IDD_REPLACE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 96
+    END
+
+    IDD_IGNORECHARS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 82
+    END
+
+    IDD_RANGESEPARATORS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 66
+    END
+
+    IDD_EDITOR, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 240
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 117
+    END
+
+    IDD_BUTTONS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 300
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 298
+    END
+
+    IDD_ABOUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 159
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 128
+    END
+
+    IDD_STATS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 341
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 182
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

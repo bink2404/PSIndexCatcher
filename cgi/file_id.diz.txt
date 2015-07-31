@@ -1,0 +1,1 @@
+Download monitor will provide you with detailed statistics of multiple file downloads. Reports download totals, downloaders IP, and other statistics. Comes with a usefull admin kit where you can view all statistics. Also records email addresses (optional) if you would like to inform users of updates/changes or new releases of your downloads.

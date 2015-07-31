@@ -1,0 +1,203 @@
+***  Installation Started 01/02/03 14:30  ***
+Title: emDEX Installation
+Source: C:\cpp\PSIndexCatcher\Wise\emDEX.EXE
+Made Dir: C:\Program Files\emDEX
+File Copy: C:\Program Files\emDEX\UNWISE.EXE
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\emDEX
+RegDB Val: emDEX
+RegDB Name: DisplayName
+RegDB Root: 2
+RegDB Old: emDEX
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\emDEX
+RegDB Val: C:\PROGRA~1\emDEX\UNWISE.EXE C:\PROGRA~1\emDEX\INSTALL.LOG
+RegDB Name: UninstallString
+RegDB Root: 2
+RegDB Old: C:\PROGRA~1\emDEX\UNWISE.EXE C:\PROGRA~1\emDEX\INSTALL.LOG
+File Copy: C:\Program Files\emDEX\orphan.wav
+File Copy: C:\Program Files\emDEX\emDEX.exe
+File Copy: C:\Program Files\emDEX\emDEX.dll
+Made Dir: C:\WINNT\Profiles\813077211\Start Menu\Programs\emDEX server
+Shell Link: C:\WINNT\Profiles\813077211\Start Menu\Programs\emDEX server\emDEX.lnk
+INI File: c:\progra~1\emDEX
+INI Sect: APIClients
+INI Item: emDEX
+INI Val: Standard,emDEX application,C:\PROGRA~1\emDEX\emDEX.dll, all
+INI File: C:\Program Files\Adobe\FrameMaker6.0\maker.ini
+INI Sect: APIClients
+INI Item: emDEX
+INI Val: Standard,emDEX application,C:\PROGRA~1\emDEX\emDEX.dll, all
+INI File: c:\progra~1\emDEX
+INI Sect: APIClients
+INI Item: emDEX
+INI Val: Standard,emDEX application,C:\PROGRA~1\emDEX\emDEX.dll, all
+RegDB Key: SOFTWARE\emDEX\Directory
+RegDB Val: C:\PROGRA~1\emDEX
+RegDB Root: 2
+User Rights: Admin
+***  Installation Started 01/08/03 9:09  ***
+Title: emDEX Installation
+Source: C:\cpp\PSIndexCatcher\Wise\emDEX.EXE
+File Overwrite: C:\Program Files\emDEX\UNWISE.EXE
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\emDEX
+RegDB Val: emDEX
+RegDB Name: DisplayName
+RegDB Root: 2
+RegDB Old: emDEX
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\emDEX
+RegDB Val: C:\PROGRA~1\emDEX\UNWISE.EXE C:\PROGRA~1\emDEX\INSTALL.LOG
+RegDB Name: UninstallString
+RegDB Root: 2
+RegDB Old: C:\PROGRA~1\emDEX\UNWISE.EXE C:\PROGRA~1\emDEX\INSTALL.LOG
+File Overwrite: C:\Program Files\emDEX\Emdex.hlp
+File Overwrite: C:\Program Files\emDEX\orphan.wav
+File Overwrite: C:\Program Files\emDEX\emDEX.exe
+File Overwrite: C:\Program Files\emDEX\emDEX.dll
+Made Dir: C:\WINNT\Profiles\813077211\Start Menu\Programs\emDEX server
+Shell Link: C:\WINNT\Profiles\813077211\Start Menu\Programs\emDEX server\emDEX.lnk
+INI File: c:\progra~1\emDEX
+INI Sect: APIClients
+INI Item: emDEX
+INI Val: Standard,emDEX application,C:\PROGRA~1\emDEX\emDEX.dll, all
+INI File: c:\progra~1\emDEX
+INI Sect: APIClients
+INI Item: emDEX
+INI Val: Standard,emDEX application,C:\PROGRA~1\emDEX\emDEX.dll, all
+INI File: C:\Program Files\Adobe\FrameMaker6.0\maker.ini
+INI Sect: APIClients
+INI Item: emDEX
+INI Val: Standard,emDEX application,C:\PROGRA~1\emDEX\emDEX.dll, all
+INI Old: Standard,emDEX application,C:\PROGRA~1\emDEX\emDEX.dll, all
+INI File: c:\progra~1\emDEX
+INI Sect: APIClients
+INI Item: emDEX
+INI Val: Standard,emDEX application,C:\PROGRA~1\emDEX\emDEX.dll, all
+RegDB Key: SOFTWARE\emDEX\Directory
+RegDB Val: C:\PROGRA~1\emDEX
+RegDB Root: 2
+RegDB Old: C:\PROGRA~1\emDEX
+User Rights: Admin
+***  Installation Started 01/09/03 14:21  ***
+Title: emDEX Installation
+Source: C:\cpp\PSIndexCatcher\Wise\emDEX.EXE
+File Overwrite: C:\Program Files\emDEX\UNWISE.EXE
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\emDEX
+RegDB Val: emDEX
+RegDB Name: DisplayName
+RegDB Root: 2
+RegDB Old: emDEX
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\emDEX
+RegDB Val: C:\PROGRA~1\emDEX\UNWISE.EXE C:\PROGRA~1\emDEX\INSTALL.LOG
+RegDB Name: UninstallString
+RegDB Root: 2
+RegDB Old: C:\PROGRA~1\emDEX\UNWISE.EXE C:\PROGRA~1\emDEX\INSTALL.LOG
+File Overwrite: C:\Program Files\emDEX\Emdex.hlp
+File Overwrite: C:\Program Files\emDEX\orphan.wav
+File Overwrite: C:\Program Files\emDEX\emDEX.exe
+File Overwrite: C:\Program Files\emDEX\emDEX.dll
+Made Dir: C:\WINNT\Profiles\813077211\Start Menu\Programs\emDEX server
+Shell Link: C:\WINNT\Profiles\813077211\Start Menu\Programs\emDEX server\emDEX.lnk
+INI File: c:\progra~1\emDEX
+INI Sect: APIClients
+INI Item: emDEX
+INI Val: Standard,emDEX application,C:\PROGRA~1\emDEX\emDEX.dll, all
+INI File: c:\progra~1\emDEX
+INI Sect: APIClients
+INI Item: emDEX
+INI Val: Standard,emDEX application,C:\PROGRA~1\emDEX\emDEX.dll, all
+INI File: C:\Program Files\Adobe\FrameMaker6.0\maker.ini
+INI Sect: APIClients
+INI Item: emDEX
+INI Val: Standard,emDEX application,C:\PROGRA~1\emDEX\emDEX.dll, all
+INI Old: Standard,emDEX application,C:\PROGRA~1\emDEX\emDEX.dll, all
+INI File: c:\progra~1\emDEX
+INI Sect: APIClients
+INI Item: emDEX
+INI Val: Standard,emDEX application,C:\PROGRA~1\emDEX\emDEX.dll, all
+RegDB Key: SOFTWARE\emDEX\Directory
+RegDB Val: C:\PROGRA~1\emDEX
+RegDB Root: 2
+RegDB Old: C:\PROGRA~1\emDEX
+User Rights: Admin
+***  Installation Started 01/10/03 14:53  ***
+Title: emDEX Installation
+Source: C:\cpp\PSIndexCatcher\Wise\emDEX.EXE
+File Overwrite: C:\Program Files\emDEX\UNWISE.EXE
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\emDEX
+RegDB Val: emDEX
+RegDB Name: DisplayName
+RegDB Root: 2
+RegDB Old: emDEX
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\emDEX
+RegDB Val: C:\PROGRA~1\emDEX\UNWISE.EXE C:\PROGRA~1\emDEX\INSTALL.LOG
+RegDB Name: UninstallString
+RegDB Root: 2
+RegDB Old: C:\PROGRA~1\emDEX\UNWISE.EXE C:\PROGRA~1\emDEX\INSTALL.LOG
+File Overwrite: C:\Program Files\emDEX\Emdex.hlp
+File Overwrite: C:\Program Files\emDEX\orphan.wav
+File Overwrite: C:\Program Files\emDEX\emDEX.exe
+File Overwrite: C:\Program Files\emDEX\emDEX.dll
+Made Dir: C:\WINNT\Profiles\813077211\Start Menu\Programs\emDEX server
+Shell Link: C:\WINNT\Profiles\813077211\Start Menu\Programs\emDEX server\emDEX.lnk
+INI File: c:\progra~1\emDEX
+INI Sect: APIClients
+INI Item: emDEX
+INI Val: Standard,emDEX application,C:\PROGRA~1\emDEX\emDEX.dll, all
+INI File: c:\progra~1\emDEX
+INI Sect: APIClients
+INI Item: emDEX
+INI Val: Standard,emDEX application,C:\PROGRA~1\emDEX\emDEX.dll, all
+INI File: C:\Program Files\Adobe\FrameMaker6.0\maker.ini
+INI Sect: APIClients
+INI Item: emDEX
+INI Val: Standard,emDEX application,C:\PROGRA~1\emDEX\emDEX.dll, all
+INI Old: Standard,emDEX application,C:\PROGRA~1\emDEX\emDEX.dll, all
+INI File: c:\progra~1\emDEX
+INI Sect: APIClients
+INI Item: emDEX
+INI Val: Standard,emDEX application,C:\PROGRA~1\emDEX\emDEX.dll, all
+RegDB Key: SOFTWARE\emDEX\Directory
+RegDB Val: C:\PROGRA~1\emDEX
+RegDB Root: 2
+RegDB Old: C:\PROGRA~1\emDEX
+User Rights: Admin
+***  Installation Started 02/04/03 12:27  ***
+Title: emDEX Installation
+Source: C:\cpp\PSIndexCatcher\Wise\emDEX.EXE
+File Overwrite: C:\Program Files\emDEX\UNWISE.EXE
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\emDEX
+RegDB Val: emDEX
+RegDB Name: DisplayName
+RegDB Root: 2
+RegDB Old: emDEX
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\emDEX
+RegDB Val: C:\PROGRA~1\emDEX\UNWISE.EXE C:\PROGRA~1\emDEX\INSTALL.LOG
+RegDB Name: UninstallString
+RegDB Root: 2
+RegDB Old: C:\PROGRA~1\emDEX\UNWISE.EXE C:\PROGRA~1\emDEX\INSTALL.LOG
+File Overwrite: C:\Program Files\emDEX\Emdex.hlp
+File Overwrite: C:\Program Files\emDEX\orphan.wav
+File Overwrite: C:\Program Files\emDEX\emDEX.exe
+File Overwrite: C:\Program Files\emDEX\emDEX.dll
+Made Dir: C:\WINNT\Profiles\813077211\Start Menu\Programs\emDEX server
+Shell Link: C:\WINNT\Profiles\813077211\Start Menu\Programs\emDEX server\emDEX.lnk
+INI File: c:\progra~1\emDEX
+INI Sect: APIClients
+INI Item: emDEX
+INI Val: Standard,emDEX application,C:\PROGRA~1\emDEX\emDEX.dll, all
+INI File: c:\progra~1\emDEX
+INI Sect: APIClients
+INI Item: emDEX
+INI Val: Standard,emDEX application,C:\PROGRA~1\emDEX\emDEX.dll, all
+INI File: C:\Program Files\Adobe\FrameMaker6.0\maker.ini
+INI Sect: APIClients
+INI Item: emDEX
+INI Val: Standard,emDEX application,C:\PROGRA~1\emDEX\emDEX.dll, all
+INI File: c:\progra~1\emDEX
+INI Sect: APIClients
+INI Item: emDEX
+INI Val: Standard,emDEX application,C:\PROGRA~1\emDEX\emDEX.dll, all
+RegDB Key: SOFTWARE\emDEX\Directory
+RegDB Val: C:\PROGRA~1\emDEX
+RegDB Root: 2
+RegDB Old: C:\PROGRA~1\emDEX
+User Rights: Admin

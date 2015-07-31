@@ -1,0 +1,14 @@
+Version 2.00 of emDEX is now available, including a new sizeable marker edit window 
+with user-defined formatting buttons and font control.
+
+emDEX is a FrameMaker™ Plug-In, adding a real-time visual means of watching your
+index grow right before your eyes to help you track and modify your index entries on the
+fly. No more need to tag-and-generate again and again.
+
+A demo version is available from the website at http://www.emdex.ca
+
+Regards,
+
+Paul Scott
+
+emDEX
